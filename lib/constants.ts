@@ -17,15 +17,15 @@ export const curriculumTopics = [
     icon: Layout,
   },
   {
-    title: "Make your first integrations",
+    title: "Create your first subgraph",
     description:
-      "You will learn how to create your first subgraph, and how to create gasless transactions using Paymaster.",
+      "You will learn how to create your first subgraph, using the Scaffold extension.",
     icon: Network,
   },
   {
     title: "Speedrun challenges",
     description:
-      "Join our vibrant community of developers, after completing some speedrun challenges.",
+      "Get your onchain certification and join the pack club, after completing at least two speedrun challenges.",
     icon: Rocket,
   },
 ];
