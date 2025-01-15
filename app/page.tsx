@@ -62,8 +62,8 @@ export default function Page() {
               Dev3Pack
             </h1>
             <p className="mx-auto mb-8 max-w-md text-muted-foreground sm:text-xl">
-              Join the onchain & online builder school for minorities coming
-              from Web2 development
+              Join the first onchain builder school for women and students
+              coming from Web2 development
             </p>
             <div className="flex justify-center gap-4">
               <Button size="lg" variant="secondary" asChild>
