@@ -67,9 +67,7 @@ export default function Page() {
             </p>
             <div className="flex justify-center gap-4">
               <Button size="lg" variant="secondary" asChild>
-                <a href="https://x.com/_SDAV/status/1878772887240294738">
-                  Learn More
-                </a>
+                <a href="https://t.me/dev3pack">Get in touch</a>
               </Button>
 
               <RegisterButton />
@@ -93,7 +91,7 @@ export default function Page() {
         <section id="curriculum" className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-center text-3xl font-gliker font-bold">
-              Cohort Curriculum
+              Discovery Basecamp Curriculum
             </h2>
             <div className="grid gap-6 md:grid-cols-2 mx-auto max-w-3xl">
               {curriculumTopics.map((topic, index) => {
