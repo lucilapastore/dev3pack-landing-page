@@ -160,7 +160,7 @@ export default function Page() {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-center text-3xl font-gliker font-bold">
-              Learn with the Best in Web3
+              Learn with top teachers in Web3
             </h2>
             <MentorsCarousel />
           </div>
@@ -231,11 +231,11 @@ export default function Page() {
           <div className="container mx-auto px-4">
             <div className="mx-auto max-w-md text-center">
               <h2 className="mb-4 text-3xl font-gliker font-bold">
-                Join our Newsletter
+                Apply Now!
               </h2>
               <p className="mb-8 text-muted-foreground">
-                Be the first to know about our next cohort and receive exclusive
-                updates.
+                Secure your spot now! Limited seats available for the first
+                cohort.
               </p>
 
               <RegisterButton />
@@ -253,29 +253,29 @@ export default function Page() {
               </div>
               <div className="flex space-x-6">
                 <Link
-                  href="#"
+                  href="https://x.com/dev3pack"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
                   Twitter
                 </Link>
                 <Link
-                  href="#"
+                  href="https://t.me/dev3pack"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
                   Telegram
                 </Link>
-                <Link
+                {/* <Link
                   href="#"
                   className="text-sm text-muted-foreground hover:text-primary"
-                >
+                > 
                   Discord
-                </Link>
+                </Link> 
                 <Link
                   href="#"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
                   YouTube
-                </Link>
+                </Link>  */}
               </div>
             </div>
           </div>
