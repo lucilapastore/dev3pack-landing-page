@@ -38,15 +38,6 @@ const mentors = [
     image: "/mentors/mentor4.jpg",
     specialty: "DevRel at Third Web",
   },
-  {/* Add a new mentor */}
-  {/*
-  {
-    id: 1,
-    name: "Kevin Jones",
-    role: "Developer Relations at The Graph",
-    image: "/mentors/mentor1.jpg",
-    specialty: "Supporting Scaffold-ETH at Buidl Guidl",
-  },*/}
 ];
 
 export default function MentorsCarousel() {
