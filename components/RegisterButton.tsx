@@ -10,7 +10,7 @@ const RegisterButton: React.FC = () => {
       target="_blank"
       className={cn(buttonVariants({ variant: "default", size: "lg" }))}
     >
-      Applu Now
+      Apply Now
     </Link>
   );
 };
