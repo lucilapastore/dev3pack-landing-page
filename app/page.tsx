@@ -144,7 +144,9 @@ export default function Page() {
               </div>
               <div className="flex flex-col items-center text-center p-6">
                 <GraduationCap className="mb-4 h-12 w-12 text-primary" />
-                <h3 className="mb-2 text-xl font-semibold">Exclusive perks</h3>
+                <h3 className="mb-2 text-xl font-semibold">
+                  Exclusive benefits
+                </h3>
                 <p className="text-muted-foreground">
                   Get fast track for different programs and attend exclusive
                   sessions
@@ -198,7 +200,7 @@ export default function Page() {
               <AccordionItem value="item-3">
                 <AccordionTrigger>What time is the cohort?</AccordionTrigger>
                 <AccordionContent>
-                  From Monday to Friday, at 3PM to 4PM UTC.
+                  From Monday to Friday, at 4 PM to 5 PM UTC.
                 </AccordionContent>
               </AccordionItem>
 

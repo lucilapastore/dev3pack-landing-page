@@ -41,7 +41,7 @@ const mentors = [
   {
     id: 5,
     name: "Solene",
-    role: "Prev H.E.R. DAO Global & Starknet.id",
+    role: "Dev3Pack Founder",
     image: "/mentors/mentor5.jpg",
     specialty: "Experienced hacker of consumer apps ",
   },
