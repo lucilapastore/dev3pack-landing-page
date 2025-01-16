@@ -67,7 +67,9 @@ export default function Page() {
             </p>
             <div className="flex justify-center gap-4">
               <Button size="lg" variant="secondary" asChild>
-                <a href="https://t.me/dev3pack">Get in touch</a>
+                <a href="https://frost-foe-274.notion.site/About-dev3pack-17bb6900a299809493e9db82dc1fb608">
+                  Learn More
+                </a>
               </Button>
 
               <RegisterButton />
@@ -121,35 +123,31 @@ export default function Page() {
         <section id="features" className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-center text-3xl font-bold">
-              Dev3Pack Perks
+              Join the Dev3Pack Club
             </h2>
             <div className="grid gap-8 md:grid-cols-3">
               <div className="flex flex-col items-center text-center p-6">
                 <Rocket className="mb-4 h-12 w-12 text-primary" />
-                <h3 className="mb-2 text-xl font-semibold">
-                  Fast Track Applications
-                </h3>
+                <h3 className="mb-2 text-xl font-semibold">Make some frens</h3>
                 <p className="text-muted-foreground">
-                  Get fast track applications for different programs and jobs.
+                  Join your next fam and build with people like you
                 </p>
               </div>
               <div className="flex flex-col items-center text-center p-6">
                 <Zap className="mb-4 h-12 w-12 text-primary" />
                 <h3 className="mb-2 text-xl font-semibold">
-                  Scholarship Priority
+                  Mentorship Access
                 </h3>
                 <p className="text-muted-foreground">
-                  Priority access to future scholarships offered by Dev3Pack.
+                  Get full guidance through a fast onchain integration process
                 </p>
               </div>
               <div className="flex flex-col items-center text-center p-6">
                 <GraduationCap className="mb-4 h-12 w-12 text-primary" />
-                <h3 className="mb-2 text-xl font-semibold">
-                  Developer Certifications
-                </h3>
+                <h3 className="mb-2 text-xl font-semibold">Exclusive perks</h3>
                 <p className="text-muted-foreground">
-                  Different levels of developer certification are available
-                  after the cohort.
+                  Get fast track for different programs and attend exclusive
+                  sessions
                 </p>
               </div>
             </div>
