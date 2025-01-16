@@ -19,7 +19,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { curriculumTopics } from "@/lib/constants";
-import { Backpack, GraduationCap, Rocket, Zap } from "lucide-react";
+import { GraduationCap, Rocket, Zap } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Page() {
@@ -35,7 +36,14 @@ export default function Page() {
         <header className="border-b">
           <div className="container mx-auto flex h-16 items-center justify-between px-4">
             <div className="flex items-center space-x-2">
-              <Backpack className="h-6 w-6" />
+              <Image
+                src="/favicon.ico"
+                alt="Dev3Pack Logo"
+                width={32}
+                height={32}
+                className="h-8 w-8 rounded-full hover:scale-105 transition-transform duration-200"
+                priority
+              />
               <span className="text-xl font-gliker">Dev3Pack</span>
             </div>
             <div className="flex items-center space-x-4">
@@ -248,7 +256,14 @@ export default function Page() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
               <div className="flex items-center space-x-2">
-                <Backpack className="h-6 w-6" />
+                <Image
+                  src="/favicon.ico"
+                  alt="Dev3Pack Logo"
+                  width={32}
+                  height={32}
+                  className="h-8 w-8 rounded-full hover:scale-105 transition-transform duration-200"
+                  priority
+                />
                 <span className="font-semibold font-gliker">Dev3Pack</span>
               </div>
               <div className="flex space-x-6">
