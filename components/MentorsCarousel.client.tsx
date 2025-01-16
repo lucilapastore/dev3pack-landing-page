@@ -38,6 +38,20 @@ const mentors = [
     image: "/mentors/mentor4.jpg",
     specialty: "DevRel at Third Web",
   },
+  {
+    id: 5,
+    name: "Solene",
+    role: "Prev H.E.R. DAO Global & Starknet.id",
+    image: "/mentors/mentor5.jpg",
+    specialty: "Experienced hacker of consumer apps ",
+  },
+  {
+    id: 6,
+    name: "Lucila",
+    role: "H.E.R. DAO Global",
+    image: "/mentors/mentor6.jpg",
+    specialty: "Front End Developer",
+  },
 ];
 
 export default function MentorsCarousel() {
