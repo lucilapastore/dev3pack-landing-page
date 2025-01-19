@@ -7,13 +7,34 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef } from "react";
 
 const supporters = [
-  { id: 1, name: "Amazon", logo: "/logos/company1.png" },
-  { id: 2, name: "Microsoft", logo: "/logos/company2.png" },
-  { id: 3, name: "Google", logo: "/logos/company3.svg" },
-  { id: 4, name: "Apple", logo: "/logos/company4.svg" },
+  {
+    id: 1,
+    name: "BuidlGuidl",
+    logo: "/logos/company1.png",
+    website: "https://buidlguidl.com",
+  },
+  {
+    id: 2,
+    name: "The Graph",
+    logo: "/logos/company2.png",
+    website: "https://thegraph.com/",
+  },
+  {
+    id: 3,
+    name: "Third Web",
+    logo: "/logos/company3.svg",
+    website: "https://thirdweb.com",
+  },
+  {
+    id: 4,
+    name: "Only Dust",
+    logo: "/logos/company4.svg",
+    website: "https://www.onlydust.com/",
+  },
 ];
 
 export default function SupportersCarousel() {
@@ -34,13 +55,19 @@ export default function SupportersCarousel() {
             className="basis-1/2 md:basis-1/3 lg:basis-1/4 flex items-center justify-center"
           >
             <div className="p-6">
-              <Image
-                src={supporter.logo}
-                alt={supporter.name}
-                width={150}
-                height={75}
-                className="mx-auto grayscale hover:grayscale-0 transition-all duration-300"
-              />
+              <Link
+                href={supporter.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={supporter.logo}
+                  alt={supporter.name}
+                  width={150}
+                  height={75}
+                  className="mx-auto grayscale hover:grayscale-0 transition-all duration-300"
+                />
+              </Link>
             </div>
           </CarouselItem>
         ))}
