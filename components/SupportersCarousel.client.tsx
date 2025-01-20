@@ -41,6 +41,12 @@ const supporters = [
     logo: "/logos/company5.png",
     website: "https://www.useweb3.xyz/",
   },
+  {
+    id: 6,
+    name: "Hyperlane",
+    logo: "/logos/company6.png",
+    website: "http://hyperlane.xyz/",
+  },
 ];
 
 export default function SupportersCarousel() {
