@@ -47,6 +47,12 @@ const supporters = [
     logo: "/logos/company6.png",
     website: "http://hyperlane.xyz/",
   },
+  {
+    id: 7,
+    name: "Talent Protocol",
+    logo: "/logos/company7.png",
+    website: "https://www.talentprotocol.com/",
+  },
 ];
 
 export default function SupportersCarousel() {
