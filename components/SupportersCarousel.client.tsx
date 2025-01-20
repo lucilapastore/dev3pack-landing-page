@@ -35,6 +35,12 @@ const supporters = [
     logo: "/logos/company4.svg",
     website: "https://www.onlydust.com/",
   },
+  {
+    id: 5,
+    name: "useWeb3",
+    logo: "/logos/company5.png",
+    website: "https://www.useweb3.xyz/",
+  },
 ];
 
 export default function SupportersCarousel() {
