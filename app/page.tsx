@@ -78,9 +78,7 @@ export default function Page() {
             </p>
             <div className="flex justify-center gap-4">
               <Button size="lg" variant="secondary" asChild>
-                <a href="https://frost-foe-274.notion.site/About-dev3pack-17bb6900a299809493e9db82dc1fb608">
-                  Get in touch
-                </a>
+                <a href="https://t.me/sdaav">Get in touch</a>
               </Button>
 
               <RegisterButton />
