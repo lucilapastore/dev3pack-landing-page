@@ -57,6 +57,9 @@ export default function Page() {
                 <Link href="#register" className="hover:text-primary">
                   Register
                 </Link>
+                <Link href="https://frost-foe-274.notion.site/About-dev3pack-17bb6900a299809493e9db82dc1fb608">
+                  About
+                </Link>
               </nav>
               <ThemeToggle />
             </div>
@@ -76,7 +79,7 @@ export default function Page() {
             <div className="flex justify-center gap-4">
               <Button size="lg" variant="secondary" asChild>
                 <a href="https://frost-foe-274.notion.site/About-dev3pack-17bb6900a299809493e9db82dc1fb608">
-                  Learn More
+                  Get in touch
                 </a>
               </Button>
 
