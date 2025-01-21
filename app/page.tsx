@@ -19,7 +19,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { curriculumTopics } from "@/lib/constants";
-import { GraduationCap, Rocket, Zap } from "lucide-react";
+import { GraduationCap, Handshake, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -136,7 +136,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-8 md:grid-cols-3">
               <div className="flex flex-col items-center text-center p-6">
-                <Rocket className="mb-4 h-12 w-12 text-primary" />
+                <Handshake className="mb-4 h-12 w-12 text-primary" />
                 <h3 className="mb-2 text-xl font-semibold">Make some frens</h3>
                 <p className="text-muted-foreground">
                   Join your next fam and build with people like you
