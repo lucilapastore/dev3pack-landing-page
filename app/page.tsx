@@ -22,6 +22,7 @@ import { curriculumTopics } from "@/lib/constants";
 import { GraduationCap, Handshake, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaTelegram, FaXTwitter } from "react-icons/fa6";
 
 export default function Page() {
   return (
@@ -270,28 +271,16 @@ export default function Page() {
               <div className="flex space-x-6">
                 <Link
                   href="https://x.com/dev3pack"
-                  className="text-sm text-muted-foreground hover:text-primary"
+                  className="hover:text-primary transition-colors"
                 >
-                  Twitter
+                  <FaXTwitter className="h-6 w-6" />
                 </Link>
                 <Link
                   href="https://t.me/dev3pack"
-                  className="text-sm text-muted-foreground hover:text-primary"
+                  className="hover:text-primary transition-colors"
                 >
-                  Telegram
+                  <FaTelegram className="h-6 w-6" />
                 </Link>
-                {/* <Link
-                  href="#"
-                  className="text-sm text-muted-foreground hover:text-primary"
-                > 
-                  Discord
-                </Link> 
-                <Link
-                  href="#"
-                  className="text-sm text-muted-foreground hover:text-primary"
-                >
-                  YouTube
-                </Link>  */}
               </div>
             </div>
           </div>
