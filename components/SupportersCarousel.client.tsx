@@ -54,10 +54,10 @@ const supporters = [
     website: "https://www.talentprotocol.com/",
   },
   {
-    id: 7,
-    name: "Talent Protocol",
-    logo: "/logos/company7.png",
-    website: "https://www.talentprotocol.com/",
+    id: 8,
+    name: "POAP Protocol",
+    logo: "/logos/company8.png",
+    website: "https://poap.xyz/",
   },
 ];
 
