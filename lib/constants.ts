@@ -1,7 +1,7 @@
 import { Code2, Layout, Network, Rocket } from "lucide-react";
 
 export const registerLink =
-  "https://app.deform.cc/form/30968151-93c9-4af5-a88c-ef633dee1e41/";
+  "https://airtable.com/appVmNN7IfbnBqmSi/shrVFkvs6YzUCybZt";
 
 export const curriculumTopics = [
   {
