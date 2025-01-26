@@ -8,6 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import { SparklesText } from "@/components/ui/sparkles-text";
 
 import MentorsCarousel from "@/components/MentorsCarousel.client";
 import RegisterButton from "@/components/RegisterButton";
@@ -240,9 +241,11 @@ export default function Page() {
         <section id="register" className="py-20">
           <div className="container mx-auto px-4">
             <div className="mx-auto max-w-md text-center">
-              <h2 className="mb-4 text-3xl font-gliker font-bold">
-                Apply Now!
-              </h2>
+              <SparklesText
+                text="Join Us"
+                className="mb-4 text-3xl font-gliker font-bold"
+              />
+
               <p className="mb-8 text-muted-foreground">
                 Secure your spot now! Limited seats available for the first
                 cohort.
