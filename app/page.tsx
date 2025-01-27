@@ -23,7 +23,7 @@ import { curriculumTopics } from "@/lib/constants";
 import { GraduationCap, Handshake, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaTelegram, FaXTwitter } from "react-icons/fa6";
+import { FaTelegram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 export default function Page() {
   return (
@@ -283,6 +283,12 @@ export default function Page() {
                   className="hover:text-primary transition-colors"
                 >
                   <FaTelegram className="h-6 w-6" />
+                </Link>
+                <Link
+                  href=" https://www.youtube.com/@dev3pack"
+                  className="hover:text-primary transition-colors"
+                >
+                  <FaYoutube className="h-6 w-6" />
                 </Link>
               </div>
             </div>
