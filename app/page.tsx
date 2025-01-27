@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { SparklesText } from "@/components/ui/sparkles-text";
 
+import { FadeTextDemo } from "@/components/FadeTextDemo";
 import MentorsCarousel from "@/components/MentorsCarousel.client";
 import RegisterButton from "@/components/RegisterButton";
 import {
@@ -130,11 +131,14 @@ export default function Page() {
           </div>
         </section>
 
+        {/* About Section */}
+        <FadeTextDemo />
+
         {/* Features Section */}
         <section id="features" className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="mb-12 text-center text-3xl font-bold">
-              Join the Dev3Pack Club
+              Dev3Pack Club
             </h2>
             <div className="grid gap-8 md:grid-cols-3">
               <div className="flex flex-col items-center text-center p-6">
