@@ -10,7 +10,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { SparklesText } from "@/components/ui/sparkles-text";
 
-import { FadeTextDemo } from "@/components/FadeTextDemo";
 import MentorsCarousel from "@/components/MentorsCarousel.client";
 import RegisterButton from "@/components/RegisterButton";
 import {
@@ -72,7 +71,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="py-20 text-center">
           <div className="container mx-auto px-4">
-            <h1 className="mb-6 text-4xl font-gliker tracking-tight sm:text-5xl lg:text-6xl inline-blockuppercase !bg-clip-text text-transparent !bg-cover !bg-center transition-all bg-gradient-to-r from-foreground to-primary">
+            <h1 className="mb-6 text-4xl font-gliker tracking-tight sm:text-5xl lg:text-6xl inline-block !bg-clip-text text-transparent !bg-cover !bg-center transition-all bg-gradient-to-r from-foreground to-primary">
               Dev3Pack
             </h1>
             <p className="mx-auto mb-8 max-w-md text-muted-foreground sm:text-xl">
@@ -88,6 +87,8 @@ export default function Page() {
             </div>
           </div>
         </section>
+        {/*
+        <BlurFadeTextDemo /> */}
 
         {/* Supportes Section */}
         <section className="py-16">
@@ -131,8 +132,10 @@ export default function Page() {
           </div>
         </section>
 
+        {/* Add the content you want to wrap with BlurFade here */}
+
         {/* About Section */}
-        <FadeTextDemo />
+        {/*<FadeTextDemo />*/}
 
         {/* Features Section */}
         <section id="features" className="py-20">
