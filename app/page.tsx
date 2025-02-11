@@ -254,8 +254,7 @@ export default function Page() {
               />
 
               <p className="mb-8 text-muted-foreground">
-                Secure your spot now! Limited seats available for the first
-                cohort.
+                Pre-Register now! Limited seats available for the second cohort.
               </p>
 
               <RegisterButton />

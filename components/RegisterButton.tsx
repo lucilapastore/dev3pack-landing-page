@@ -15,7 +15,7 @@ const RegisterButton: React.FC = () => {
           target="_blank"
           className={cn(buttonVariants({ variant: "default", size: "lg" }))}
         >
-          Apply Now
+          Join Waitlist!
         </Link>
       </CoolMode>
     </div>

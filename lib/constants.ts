@@ -1,7 +1,6 @@
 import { Code2, Layout, Network, Rocket } from "lucide-react";
 
-export const registerLink =
-  "https://airtable.com/appVmNN7IfbnBqmSi/shrVFkvs6YzUCybZt";
+export const registerLink = "https://tally.so/r/wQzlX1";
 
 export const curriculumTopics = [
   {
